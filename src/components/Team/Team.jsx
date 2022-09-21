@@ -1,6 +1,5 @@
 import styles from "./Team.module.scss";
 import { WiStars } from "react-icons/wi";
-import { GoPlus } from "react-icons/go";
 import { BsArrowRightShort } from "react-icons/bs";
 import { FiMessageCircle } from "react-icons/fi";
 import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
@@ -56,14 +55,8 @@ const Team = () => {
     <main>
       <div className={styles.title}>
         <div className={styles.title_icon}>
-          <h1>Team</h1>
+          <h1>Patients</h1>
           <WiStars />
-        </div>
-        <div className={styles.create_btn}>
-          <button>
-            Add Mermber
-            <GoPlus />
-          </button>
         </div>
       </div>
       <div className={styles.content}>

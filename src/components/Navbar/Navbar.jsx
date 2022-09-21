@@ -80,7 +80,7 @@ const Navbar = () => {
             icon={<MdOutlinedFlag />}
             description="Register Donor"
           />
-          <NavUrl url="team" icon={<MdPeopleOutline />} description="Team" />
+          <NavUrl url="team" icon={<MdPeopleOutline />} description="Patients" />
 
           <NavUrl
             url="messages"
@@ -89,16 +89,16 @@ const Navbar = () => {
           />
 
           {/* SECOND CATEGORY */}
-          <span className={`${styles.categories} ${styles.second_category}`}>
+          {/* <span className={`${styles.categories} ${styles.second_category}`}>
             {nav ? "More" : <BsThreeDots />}
-          </span>
+          </span> */}
 
           <NavUrl
             url="other1"
             icon={<IoMdLogIn />}
-            description="Authentication"
+            description="Tracking"
           />
-          <NavUrl url="other2" icon={<FaReact />} description="ReactJs" />
+          {/* <NavUrl url="other2" icon={<FaReact />} description="ReactJs" /> */}
         </ul>
 
         {/* LOGOUT BUTTON */}
