@@ -17,13 +17,13 @@ function Campaings(){
             margin: "2rem",
           }}>Enter Donor Details</h1>
       <form>
-        <h2>Enter Patient Name</h2>
+        <h3>Enter Patient Name</h3>
         <input type="text" placeholder="Patient Name" />
-        <h2>Enter Patient Age</h2>
+        <h3>Enter Patient Age</h3>
         <input type="text" placeholder="Age" />
-        <h2>Enter The organ type</h2>
+        <h3>Enter The organ type</h3>
         <input type="text" placeholder="Organ" />
-        <h2>Enter Patient Blood Group</h2>
+        <h3>Enter Patient Blood Group</h3>
         <input type="text" placeholder="Blood Group" />
 
 
