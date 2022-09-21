@@ -58,10 +58,10 @@ const Search = () => {
           <div className={styles.recent}>
             <h3>Recent Searches</h3>
             <ul>
-              <RecentSearch>Lorem, ipsum dolor.</RecentSearch>
-              <RecentSearch>Lorem, ipsum dolor.</RecentSearch>
-              <RecentSearch>Lorem, ipsum dolor.</RecentSearch>
-              <RecentSearch>Lorem, ipsum dolor.</RecentSearch>
+              <RecentSearch>Heart blood group O-</RecentSearch>
+              <RecentSearch>Kidney blood group A-</RecentSearch>
+              <RecentSearch>Lungs blood group O+</RecentSearch>
+              <RecentSearch>Pancreas transplant blood group B-</RecentSearch>
             </ul>
           </div>
         </div>
