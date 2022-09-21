@@ -1,6 +1,5 @@
 import styles from "./Team.module.scss";
 import { WiStars } from "react-icons/wi";
-import { BsArrowRightShort } from "react-icons/bs";
 import { FiMessageCircle } from "react-icons/fi";
 import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
 
@@ -13,18 +12,15 @@ const Card = ({ person_image }) => {
   return (
     <div className={styles.card_container}>
       <div className={styles.info}>
-        <div className={styles.photo_container}>
+        {/* <div className={styles.photo_container}>
           <img src={person_image} alt="person" />
-        </div>
-        <span className={styles.name}>Lorem Ipsum</span>
-        <div className={styles.country}>
-          <BsArrowRightShort />
-          GR
-        </div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
-          esse harum ullam ratione nesciunt quam.
-        </p>
+        </div> */}
+        <ul>
+          <li>Patient Name : Rahul</li>
+          <li>Age          : 18</li>
+          <li>Oragan       : Heart</li>
+          <li>Blood Group  : O+</li>
+        </ul>
       </div>
       <div className={styles.message}>
         <span>
