@@ -18,9 +18,9 @@ const Notification = ({ title, content, date }) => {
 
 Notification.defaultProps = {
   content:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nesciunt voluptatum minima aut numquam saepe",
-  title: "Lorem ipsum dolor sit.",
-  date: "11/12/21",
+    "The patient was found in road accident his age is around 27. The blood is matching with reciever ",
+  title: "Heart was ready to transplant",
+  date: "22/09/22",
 };
 
 const Notifications = () => {
